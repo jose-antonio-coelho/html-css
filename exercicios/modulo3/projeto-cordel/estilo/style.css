@@ -4,10 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2? família = Sriracha & display=swap');
 
+@import url('https://fonts.googleapis.com/css2? family= Indie+Flor & display=swap');
+
 :root{
     --fonte1:  Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursiva;
     --fonte3: 'Sriracha', cursiva;
+    --fonte4: 'Indie Flower', cursiva;
 }
 
 *{
@@ -16,9 +19,9 @@
 }
 
 html, body{
+    font-family: var(--fonte1);
     min-height: 100vh;
     background-color: darkgray;
-    font-family: var(--fonte1);
 }
 
 header{
@@ -58,6 +61,7 @@ section{
 section.normal{
     background-color: white;
     color: black;
+    font-family: 'Indie Flower', cursiva;
 }
 
 section.imagem{
