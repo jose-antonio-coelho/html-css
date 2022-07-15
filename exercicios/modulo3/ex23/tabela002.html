@@ -13,6 +13,7 @@
         table {
             width: 490px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -30,6 +31,16 @@
         thead, tfoot {
             background-color: rgb(175, 175, 175);
             color: rgb(255, 255, 255);
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: rgb(175, 175, 175);
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
 
         td.num {
@@ -74,8 +85,8 @@
                 <th scope="row">Total de Habitantes</th>
                 <td class="num">112.107.172</td>
             </tr>
-
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quidem quas aliquid eaque, laborum, exercitationem a provident sed tempore quam autem reiciendis, laudantium expedita eum distinctio odit! Error, dicta Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sed nihil deserunt vero obcaecati harum blanditiis a impedit amet temporibus, officiis, qui aspernatur nobis voluptas. Vitae mollitia iure eligendi deserunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quas ipsam, sit quis impedit molestias, explicabo, repellendus exercitationem quia debitis perspiciatis unde. Consequuntur voluptates explicabo dolore, corrupti nobis ex unde.</p>
 </body>
 </html>
